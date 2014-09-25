@@ -1,0 +1,8 @@
+INSTALL (for git)
+
+mkdir app/code/community/Cammino
+git submodule add git@github.com:mferracioli/magento-conversionscripts.git app/code/community/Cammino/Conversionscripts
+cp app/code/community/Cammino/Conversionscripts/Cammino_Facebookconversion.xml app/etc/modules/
+
+TODO
+
